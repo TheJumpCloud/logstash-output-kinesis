@@ -1,6 +1,6 @@
 language: ruby
 jdk:
-  - oraclejdk8
+  - oraclejdk11
 before_install:
   - mkdir -p $HOME/bin
   - wget https://github.com/github/git-lfs/releases/download/v1.1.2/git-lfs-linux-amd64-1.1.2.tar.gz

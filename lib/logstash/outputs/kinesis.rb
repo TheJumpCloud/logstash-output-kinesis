@@ -8,7 +8,7 @@ require "logstash-output-kinesis_jars"
 
 # Sends log events to a Kinesis stream. This output plugin uses the official Amazon KPL.
 # Most of the configuration options in this plugin are simply passed on to
-# link:https://github.com/awslabs/amazon-kinesis-producer/blob/v0.12.5/java/amazon-kinesis-producer/src/main/java/com/amazonaws/services/kinesis/producer/KinesisProducerConfiguration.java#L38[KinesisProducerConfiguration]
+# link:https://github.com/awslabs/amazon-kinesis-producer/blob/v0.14.10/java/amazon-kinesis-producer/src/main/java/com/amazonaws/services/kinesis/producer/KinesisProducerConfiguration.java#L38[KinesisProducerConfiguration]
 class LogStash::Outputs::Kinesis < LogStash::Outputs::Base
   config_name "kinesis"
 

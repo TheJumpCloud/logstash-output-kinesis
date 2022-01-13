@@ -5,6 +5,14 @@
 
 This is a plugin for [Logstash](https://github.com/elasticsearch/logstash). It will send log records to a [Kinesis stream](https://aws.amazon.com/kinesis/), using the [Kinesis Producer Library (KPL)](https://docs.aws.amazon.com/kinesis/latest/dev/developing-producers-with-kpl.html).
 
+** Note on 1/13/2022: 
+
+This repo has been forked from https://github.com/samcday/logstash-output-kinesis/pulls for JC uses. The original repo has no longer been supported and archived.
+
+The work that has been performed on updating versions and dependencies in this repo is in part for passing vulnerbility test (SEC-2027). Once passing the vulnerability test, this repo will need to be renamed and the logstash-output-kinesis plugin will be renamed, e.g., logstash-output-kinesis-jc.
+
+VERSION = "6.1.1" was arbitrary given in lib/logstash-output-kinesis/version.rb in order to differentiate the last version (5.1.2) in the orginal repo being forked.
+
 **This version is intended for use with Logstash 5.x.** For plugin versions compatible with older versions of Logstash:
 
  * [Logstash 1.5.x](https://github.com/samcday/logstash-output-kinesis/tree/1.5)
@@ -224,7 +232,7 @@ Are more than welcome. See [CONTRIBUTING.md](CONTRIBUTING.md)
 
 [travis]: https://travis-ci.org/samcday/logstash-output-kinesis
 [rubygems]: https://rubygems.org/gems/logstash-output-kinesis
-[kpldoc]: https://github.com/awslabs/amazon-kinesis-producer/blob/v0.12.5/java/amazon-kinesis-producer/src/main/java/com/amazonaws/services/kinesis/producer/KinesisProducerConfiguration.java#L38
+[kpldoc]: https://github.com/awslabs/amazon-kinesis-producer/blob/v0.14.10/java/amazon-kinesis-producer/src/main/java/com/amazonaws/services/kinesis/producer/KinesisProducerConfiguration.java#L38
 
 [badge-travis]: https://img.shields.io/travis/samcday/logstash-output-kinesis.svg?style=flat-square
 [badge-gem]: https://img.shields.io/gem/v/logstash-output-kinesis.svg?style=flat-square
