@@ -15,4 +15,4 @@ deploy:
   gem: logstash-output-kinesis
   on:
     tags: true
-    repo: TheJumpCloud/logstash-output-kinesis
+    repo: samcday/logstash-output-kinesis
