@@ -7,13 +7,12 @@ This is a plugin for [Logstash](https://github.com/elasticsearch/logstash). It w
 
 ** Note on 1/13/2022: 
 
-This repo has been forked from https://github.com/samcday/logstash-output-kinesis/pulls for JC uses.
+This repo has been forked from https://github.com/samcday/logstash-output-kinesis/pulls for JC uses. The original repo has no longer been supported and archived.
 
-The original repo has no longer been supported and archived.
+The work that has been performed on updating versions and dependencies in this repo is in part for passing vulnerbility test (SEC-2027). Once passing the vulnerability test, this repo will need to be renamed and the logstash-output-kinesis plugin will be renamed, e.g., logstash-output-kinesis-jc.
 
-This repo will need to be renamded and a new plugin name, e.g., logstash-output-kinesis-jc will be developed in the renamde repo. 
+VERSION = "6.1.1" was arbitrary given in lib/logstash-output-kinesis/version.rb in order to differentiate the last version (5.1.2) in the orginal repo being forked.
 
-VERSION = "6.1.1" was arbitrary given in lib/logstash-output-kinesis/version.rb, in order to differential the last version 5.1.2 in the orginal repo bei g forked.
 **This version is intended for use with Logstash 5.x.** For plugin versions compatible with older versions of Logstash:
 
  * [Logstash 1.5.x](https://github.com/samcday/logstash-output-kinesis/tree/1.5)
