@@ -6,7 +6,7 @@ Raising an issue is great, raising a PR is better, raising a PR with tests is *b
 
 You'll need [Git LFS](https://git-lfs.github.com/) to properly clone this repo.
 
-Ensure you have JRuby 9.1.x installed. [rvm](https://rvm.io/) is your friend :)
+Ensure you have JRuby 9.3.x installed. [rvm](https://rvm.io/) is your friend :)
 
 ```sh
 rvm use --install .

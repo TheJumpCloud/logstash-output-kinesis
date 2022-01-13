@@ -8,9 +8,8 @@ Gem::Specification.new do |s|
   s.licenses = ["Apache License (2.0)"]
   s.summary = "This output plugin sends records to Kinesis using the Kinesis Producer Library (KPL)"
   s.description = "This gem is a logstash plugin required to be installed on top of the Logstash core pipeline using $LS_HOME/bin/plugin install logstash-output-kinesis. This gem is not a stand-alone program"
-  s.authors = ["Sam Day"]
-  s.email = "me@samcday.com.au"
-  s.homepage = "https://www.github.com/samcday/logstash-output-kinesis"
+  s.authors = ["bliujc"]
+  s.homepage = "https://www.github.com/TheJumpCloud/logstash-output-kinesis"
   s.require_paths = ["lib"]
 
   # Files

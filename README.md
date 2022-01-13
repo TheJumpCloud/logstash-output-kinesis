@@ -224,7 +224,7 @@ Are more than welcome. See [CONTRIBUTING.md](CONTRIBUTING.md)
 
 [travis]: https://travis-ci.org/samcday/logstash-output-kinesis
 [rubygems]: https://rubygems.org/gems/logstash-output-kinesis
-[kpldoc]: https://github.com/awslabs/amazon-kinesis-producer/blob/v0.12.5/java/amazon-kinesis-producer/src/main/java/com/amazonaws/services/kinesis/producer/KinesisProducerConfiguration.java#L38
+[kpldoc]: https://github.com/awslabs/amazon-kinesis-producer/blob/v0.14.10/java/amazon-kinesis-producer/src/main/java/com/amazonaws/services/kinesis/producer/KinesisProducerConfiguration.java#L38
 
 [badge-travis]: https://img.shields.io/travis/samcday/logstash-output-kinesis.svg?style=flat-square
 [badge-gem]: https://img.shields.io/gem/v/logstash-output-kinesis.svg?style=flat-square
