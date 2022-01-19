@@ -1,3 +1,3 @@
-module LogstashOutputKinesis
-  VERSION = "6.1.1"
+module LogstashOutputKinesisJC
+  VERSION = "0.1.1"
 end
