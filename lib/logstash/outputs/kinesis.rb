@@ -5,6 +5,7 @@ require "logstash/outputs/base"
 require "logstash/namespace"
 require "securerandom"
 require "logstash-output-kinesis-jc_jars"
+require "logstash/devutils/rspec/spec_helper"
 
 # Sends log events to a Kinesis stream. This output plugin uses the official Amazon KPL.
 # Most of the configuration options in this plugin are simply passed on to
